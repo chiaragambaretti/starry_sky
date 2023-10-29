@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.starry-sky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.star {
+    position: absolute;
+    background-color: #fff; /* Colore delle stelle */
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    opacity: 0.5; /* iniziale delle stelle */
+}
+
+.star.illuminated {
+    opacity: 2; /* finale delle stelle */
+    background-color: yellow;  
+}
+
